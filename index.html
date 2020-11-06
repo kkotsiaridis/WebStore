@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  crossorigin="anonymous">
+    <title>MyWebStore</title>
+
+ </head>
+ <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+	
+	<main role="main" class="inner cover">
+            <h1 class="cover-heading">Welcome to my Web Store!<br><br></h1>
+            <h3> Add a new item in the system:<br></h3>
+	</main>
+        
+        <div class="container">
+
+            <div class="card bg-light">
+                <article class="card-body mx-auto" style="max-width: 600px;">
+                    <form method="POST" action="./AddItem">
+                        
+                        <div class="form-group input-group">
+                            <input name="Barcode" class="form-control" placeholder="Barcode" type="number">
+                        </div> 
+                        
+                        <div class="form-group input-group">
+                            <input name="Name" class="form-control" placeholder="Name" type="text">
+                        </div> 
+                        
+                        <div class="form-group input-group">
+                            <input name="Colour" class="form-control" placeholder="Colour" type="text">
+                        </div> 
+                        
+                        <div class="form-group input-group">
+                            <input name="Description" class="form-control" placeholder="Description" type="text">
+                        </div> 
+                        
+                        
+                        
+                        <div class="form-group">
+                            <button type="submit" value="Submit" class="btn btn-primary btn-block"> Add item  </button>
+                        </div>    
+                                                                 
+                    </form>
+                </article>
+            </div> 
+
+        </div> 
+       
+
+        
+        <footer class="mastfoot mt-auto">
+	    <div class="inner">
+	      <p>Created by <a href="http://inf-server.inf.uth.gr/~kkotsiaridis/MyResume.html">Kotsiaridis Konstantinos</a>.</p>
+	    </div>
+	</footer>
+    </div>
+  </body>
+</html>
